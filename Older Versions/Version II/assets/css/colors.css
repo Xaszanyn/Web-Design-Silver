@@ -1,0 +1,99 @@
+/*
+    Turquoise #0F9F8F
+    White #FBFBFB;
+    Black #07071F
+    Red #CF0707
+*/
+
+body {
+    background-color: #0F9F8F;
+    //background-image: linear-gradient(135deg, #6ffff9 0%, #0f9f8e 100%);
+
+}
+
+nav {
+    background-color: #FBFBFB;
+    border-color: #07071F;
+}
+
+header {
+    background-image: url(../testimg.jpg);
+    //background: linear-gradient(rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%), url(../testimg.jpg);
+}
+
+main {
+    background-color: #FBFBFB;
+}
+
+h2 {
+    color: #FBFBFB;
+}
+
+.button {
+    color: #FBFBFB;
+    border-color: #FBFBFB;
+}
+
+.button:hover {
+    background-color: #FBFBFB;
+    color: #07071F;
+    border-color: #0F9F8F
+}
+
+#collections {
+    color: #0F9F8F;
+}
+
+#collections a:hover {
+    color: #07071F;
+    border-color: #0F9F8F;
+}
+
+hr {
+    border-color: #07071F;
+}
+
+nav a:hover {
+    border-color: #07071F;
+    color: #0F9F8F;
+}
+
+.interval {
+    border-color: #0F9F8F;
+}
+
+.card {
+    border-top-color: #BFBFBF;
+    border-left-color: #BFBFBF;
+    border-right-color: #7F7F7F;
+    border-right-color: #7F7F7F;
+}
+
+.card .button {
+    color: #CF0707;
+    border-color: #CF0707;
+}
+
+.card .button:hover {
+    background-color: #0F9F8F;
+    border-color: #07071F;
+    color: #FBFBFB;
+}
+
+footer {
+    background-color: #07071F;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+footer a:hover {
+    color: #FBFBFB;
+}
+
+#contact-box {
+    color: #FBFBFB;
+    background-color: rgba(7, 7, 31, 0.5);
+}
+
+#contact-box a:hover {
+    color: #0F9F8F;
+}

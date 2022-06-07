@@ -1,0 +1,27 @@
+#pop-up {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(7, 7, 31, 0.6);
+    display: flex;
+}
+
+#message-box {
+    margin: auto auto 0;
+    width: 80vw;
+    height: 95vh;
+    padding: 5rem;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    background-color: #EFFFF7;
+    position: relative;
+}
+
+#close {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    font-size: 2rem; /* DEĞİŞECEK */
+}

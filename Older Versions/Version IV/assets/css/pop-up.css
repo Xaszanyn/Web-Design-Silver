@@ -1,0 +1,67 @@
+* {
+    transition: all .4s;
+    /* .1 second from triggering. */
+}
+
+.popUpSection {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+
+.popUp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+}
+
+.messageBox {
+    margin: auto auto 0;
+    width: 95vw;
+    height: 90vh;
+    padding: 5rem;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    background-color: #FBFBFB;
+    position: relative;
+    transform: translateY(100%);
+    overflow-y: scroll;
+}
+
+#backButton {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    display: flex;
+    align-items: center;
+    color: #CF0707;
+}
+
+#backButton span {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#backButton i {
+    margin-left: 1rem;
+    font-size: 3rem;
+}
+
+.PUTriggered {
+    background-color: rgba(7, 7, 31, 0.5);
+}
+
+.MBTriggered {
+    transform: translate(0);
+}
+
+@media only screen and (max-width: 599px) {
+    .messageBox {
+        padding: 3rem 1rem;
+    }
+}
