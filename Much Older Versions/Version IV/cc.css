@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+html {
+    font-size: 10px;
+}
+
+/* General */
+
+hr {
+    border: 2px solid #3E7CB2;
+}
+i {
+    color: #3E7CB2;
+    font-size: 2rem;
+}
+
+/* Navigation */
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #FFF;
+}
+#navigation {
+    padding: 0 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    margin: auto;
+    margin-top: .8rem;
+}
+#user-box i:not(:last-of-type) {
+    margin-right: 1rem;
+}

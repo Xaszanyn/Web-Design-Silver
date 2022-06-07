@@ -1,0 +1,108 @@
+.collection {
+    background-image: url(img/collection-generic.jpg);
+    background-size: cover;
+    background-position: 50% 25%;
+    margin: .5rem;
+}
+
+
+.collection a {
+    display: block;
+    padding: 1.4rem 0;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+}
+
+.collection a:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#products-title {
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product:nth-child(odd) {
+    margin-right: .5rem;
+}
+
+.product:nth-child(even) {
+    margin-left: .5rem;
+}
+
+.product {
+    width: calc(50% - 1.5rem);
+    padding-bottom: 1rem;
+    text-align: center;
+    margin: 1rem;
+    border: 1px solid rgba(85, 85, 85, 0.2);
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.6);
+    border-radius: .5rem;
+}
+
+.product span:first-of-type {
+    font-size: 1.5rem;
+}
+
+.product span:last-of-type {
+    font-size: 1.2rem;
+}
+
+.product img {
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+    margin-bottom: .5rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+#page-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+#page-buttons .button {
+    background-color: rgba(62, 124, 178, 0.4);
+    border: 2px solid rgba(62, 124, 178, 0.4);
+}
+
+#page-buttons .button:hover {
+    background-color: rgba(62, 124, 178, 0.8);
+}
+
+#page-buttons .button:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-width: 1px;
+}
+
+#page-buttons .button:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-width: 1px;
+}
+
+#single-button {
+    border-radius: 2rem !important;
+}
+
+#products-location {
+    position: absolute;
+    top: -7rem;
+
+}
+
+#products-section {
+    position: relative;
+}

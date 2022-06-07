@@ -1,0 +1,24 @@
+header {
+    height: 30rem;
+    padding: 4rem 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Prata', serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #FFF;
+    font-family: 'Prata', serif;
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.button-box {
+    margin-top: 6rem;
+}
+
+.button-box a:first-child {
+    margin-right: 2rem;
+}
